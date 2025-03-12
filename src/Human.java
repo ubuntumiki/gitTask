@@ -19,7 +19,10 @@ public class Human {
         Human mikola = new Human(175, 85, 22, "man", "Mikola");
         Human lana = new Human(165, 55, 22, "woman", "Lana");
         Human igor = new Human(185, 95, 32, "man", "Igor");
-
-        System.out.println(mikola.height + " " + mikola.weight + " " + mikola.age + " " + mikola.sex + " " + mikola.name);
+        Human evgen = new Human(168, 85, 58, "man", "Evgen");
+        System.out.println(mikola.height + " " + mikola.weight + " " + mikola.age + " "
+                + mikola.sex + " " + mikola.name);
+        System.out.println(evgen.height + " " + evgen.weight + " " + evgen.age + " "
+                + evgen.sex + " " + evgen.name);
     }
 }
